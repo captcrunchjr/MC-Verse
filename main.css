@@ -9,7 +9,16 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: black;
+    background-color: #21232A;
+    border: 0;
+    align-items: center;
+    place-items: center;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
 }
 
 .toplogobox {
@@ -41,3 +50,24 @@ body {
     max-height: 50px;
     border: 0;
 }
+
+.pagecount {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.material-symbols-outlined {
+                font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 24
+}
+            
+#tagname {
+    font-family: "VT323", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
