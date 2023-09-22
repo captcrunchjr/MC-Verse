@@ -71,3 +71,26 @@ body {
     font-size: 60px;
 }
 
+.mainnav {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #E2E2E2;
+}
+
+.mainnav .mainnavbtn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mainnav-items:hover .mainnavbtn {color: green; text-decoration: underline}
+.mainnav-bosses:hover .mainnavbtn {color: green; text-decoration: underline}
+.mainnav-tools:hover .mainnavbtn {color: green; text-decoration: underline}
+.mainnav-weapons:hover .mainnavbtn {color: green; text-decoration: underline}
+.mainnav-buildings:hover .mainnavbtn {color: green; text-decoration: underline}
+.mainnav-npc:hover .mainnavbtn {color: green; text-decoration: underline}
