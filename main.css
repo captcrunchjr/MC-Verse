@@ -1,10 +1,17 @@
 body {
-    
+    margin: 0;
     
 }
 
-
 .topbanner {
-    
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    background-image: radial-gradient(black,grey);
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row;
 }
