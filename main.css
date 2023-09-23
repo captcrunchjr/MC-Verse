@@ -1,6 +1,12 @@
 body {
     margin: 0;
     font-family: grandstander;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-image: url("homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 150% 100%;
     
 }
 
@@ -26,6 +32,13 @@ body {
     margin-bottom: 3vh;
     min-height: 5vh;
     max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.intro-block {
     background-color: #21232A;
     color: white;
     font-weight: normal;
@@ -34,6 +47,7 @@ body {
     justify-content: space-between;
     padding: 20px;
     border-radius: 1em;
+    margin-bottom: 25px;
 }
 
 .title-block h1 {
@@ -61,6 +75,10 @@ body {
 
 .slider-wrapper {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center
     max-width: 68rem;
     margin: 0 auto;
 }
@@ -82,10 +100,12 @@ body {
 
 .slider-nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     column-gap: 1rem;
-    position: absolute;
+    position: relative;
     bottom: 1.25rem;
-    left: 50%;
     transition: translateX(-50%);
     z-index: 1;
 }
