@@ -8,7 +8,7 @@ body {
     margin-right: 15vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    min-height: 50vh;
+    min-height: 5vh;
     min-width: 1vw;
     color: #383838;
     font-weight: normal;
@@ -34,5 +34,15 @@ body {
     font-weight: normal;
     font-size: 12pt;
     line-height: 1.5em
+}
+
+.home-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#home-image {
+    max-height: 50%;
+    max-width: 90vw;
 }
 
