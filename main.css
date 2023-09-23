@@ -11,8 +11,8 @@ body {
 }
 
 .page-content {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
     min-height: 5vh;
@@ -127,16 +127,77 @@ body {
     font-family: grandstander;
     margin: 0;
     padding: 20px;
-    margin-left: 5em;
-    background-color: #21232A;
-    border-radius: 1em;
+    margin-left: 5vw;
+    margin-right: 2vw;
     color: #383838;
     font-weight: normal;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.links-tool {
+    padding: 20px;
+    background-color: #21232A;
+    border-radius: 1em;
+    font-family: grandstander;
+    min-width: 25vw;
+    max-width: 33vw;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
 
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+    scroll-snap-type: block;
+    scroll-behavior: auto;
+}
 
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 1vw 1vw;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 1em;
+    border: solid 3px black;
+    background-color: #4f8335;
+    min-height: 40px;
+    max-width: 6.5vw;
+    min-width: 6.5vw;
+    min-height: 10vh;
+}
 
+.linkimage {
+    height: 40px;
+    width: 40px;
+}
+
+.linklabel {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: grandstander;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+.linklabel:hover {text-decoration: underline;}
+
+.link:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
