@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    font-family: grandstander;
     
 }
 
 .page-content {
     margin-left: 5vw;
-    margin-right: 1vw;
+    margin-right: 5vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
     min-height: 5vh;
@@ -103,8 +104,9 @@ body {
 }
 
 .page-content-right {
+    font-family: grandstander;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     margin-left: 5em;
     background-color: #21232A;
     border-radius: 1em;

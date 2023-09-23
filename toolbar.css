@@ -67,12 +67,21 @@
 }
 
 .mainnav {
-    padding: .7em;
+    padding: 0.7em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: flex-end;
     background-color: #E2E2E2;
+    column-gap: 0;
+}
+
+.mainnav-subbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .mainnav .mainnavbtn {
@@ -82,14 +91,43 @@
     margin-left: 10px;
     margin-right: 10px;
     font-family: grandstander;
-    font-size: small;
+    font-size: 20;
     color: #21232A;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    /*align-items: center;*/
+    /*border-radius: 10pt;*/
 }
 
-.mainnav-items:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-bosses:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-tools:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-weapons:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-buildings:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-npc:hover .mainnavbtn {color: green; text-decoration: underline}
-.mainnav-learn:hover .mainnavbtn {color: green; text-decoration: underline}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .dropdown-title {
+    font-family: grandstander;
+    font-size: 20;
+    background-color: #21232A;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mainnav-subbar:hover .mainnavbtn {color: white}
+.mainnav-subbar:hover .dropdown-content {display: block;}
+.mainnav-subbar:hover {background-color: #21232A;} 
+
