@@ -4,7 +4,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-color: #21232A;
+    background-image: url("landscape.jpg");
+    /*background-color: #21232A;*/
     border: 0;
     align-items: center;
     place-items: center;
@@ -20,7 +21,6 @@
 .toplogobox {
     display: flex;
     flex-direction: row;
-    background-color:transparent;
     color: white;
     border: 0;
     max-height: 50px;
