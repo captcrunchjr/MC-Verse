@@ -40,4 +40,4 @@ body {
     text-decoration: none;
 }
 
-#footer-link:hover {text-decoration: underline; color: green;}
+.footer-link:hover {text-decoration: underline; color: green;}
