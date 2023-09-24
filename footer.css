@@ -2,7 +2,29 @@ body {
     margin: 0;
 }
 
-#info {
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    background-color: #14181b;
+    color: white;
+    font-family: grandstander;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-family: grandstander;
+}
+
+.about {
     padding-left: 8vw;
     padding-right: 8vw;
     padding-bottom: 2vh;
@@ -14,5 +36,8 @@ body {
     align-items: center;
     background-color: #14181b;
     color: white;
-    font-family: grandstander;
+    font-family: grandstander; 
+    text-decoration: none;
 }
+
+#footer-link:hover {text-decoration: underline; color: green;}

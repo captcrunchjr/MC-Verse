@@ -151,13 +151,10 @@ body {
 
 .quick-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     align-items: center;
     justify-content: space-evenly;
-    overflow-x: scroll;
-    scroll-snap-type: block;
-    scroll-behavior: auto;
 }
 
 .link {
@@ -176,8 +173,8 @@ body {
     border: solid 3px black;
     background-color: #4f8335;
     min-height: 40px;
-    max-width: 6.5vw;
-    min-width: 6.5vw;
+    max-width: 7vw;
+    min-width: 7vw;
     min-height: 10vh;
 }
 
