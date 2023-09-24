@@ -3,6 +3,7 @@ body {
     font-family: grandstander;
     overflow-y: scroll;
     overflow-x: scroll;
+    scroll-snap-align: start;
     background-image: url("homepage67.jpg");
     background-repeat: no-repeat;
     background-size: cover;
