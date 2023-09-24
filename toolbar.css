@@ -4,8 +4,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    background-image: url("landscape.jpg");
-    /*background-color: #21232A;*/
+    /*background-image: url("landscape.jpg");*/
+    background-color: #21232A;
     border: 0;
     align-items: center;
     place-items: center;
