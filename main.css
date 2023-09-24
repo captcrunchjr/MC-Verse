@@ -189,7 +189,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     font-family: grandstander;
-    font-size: 20px;
+    font-size: auto;
     margin: 10px;
     
 }
