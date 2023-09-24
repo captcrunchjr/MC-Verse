@@ -4,7 +4,7 @@ body {
     overflow-y: scroll;
     overflow-x: scroll;
     scroll-snap-align: start;
-    background-image: url("landscape5.jpg");
+    background-image: url("landscape3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 200% 100%;
@@ -92,7 +92,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
     border-radius: 1em;
     margin-bottom: 25px;
     margin-top: 25px;
