@@ -29,6 +29,10 @@ inputBox.onkeyup = function() {
 
 function display(result) {
     const content = result.map((list)=>{
+        console.log("V1: " + list);
+        let data = list.toLowerCase().replace(" ", "-");
+        console.log("V2: " + list);
+        console.log("V3: " + "<li><a href=\"" + data + "-page.html\">" + list + "</a></li>");
         return "<li>" + list + "</li>";
     });
     

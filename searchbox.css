@@ -32,6 +32,7 @@
     padding: 10px 150px;
     margin-right: 0px;
     margin-left: 0px;
+    text-align: center;
     
 }
 
@@ -51,6 +52,16 @@
     flex-grow: 4;
 }
 
+.searchbox ul li a {
+    background-color: white;
+    color: #21232A;
+    cursor: pointer;
+    font-family: grandstander;
+    text-decoration: none;
+}
+
 .searchbox:hover ul {display: flex; flex-direction: column; align-items: stretch;}
 .searchbox:hover .searcharea {display: flex; flex-direction: column; align-items: stretch;}
 .searchbox ul li:hover {background-color: #21232A; color: white;}
+.searchbox ul li:hover a {background-color: #21232A; color: white;}
+.searchbox ul li a:hover {background-color: #21232A; color: white;}
