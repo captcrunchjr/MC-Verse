@@ -8,6 +8,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+        <script>
+            $(function (){
+                $(".search-capability").load("searchbox.html");
+            });
+            
+        </script>
         <title>MC Verse</title>
         <link rel="icon" type="image/x-icon" href="icon.ico">
     </head>
@@ -20,11 +26,7 @@
                     <button id="chat-button"><span class="material-symbols-outlined">chat</span></button>
                      <iframe id="discord" src="https://discord.com/widget?id=1154982800320110666&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </div>
-                <div class="searchbox">
-                    <button id="chat-button"><span class="material-symbols-outlined">search</span>
-                        </button>
-                    <input id="search-box-input" type="search">
-                </div>
+                <div class="search-capability"></div>
             </nav>
             <div class="toplogobox">
                 <button onClick="location.href='index.html'" id="homebutton" class="logobutton" >
