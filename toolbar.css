@@ -151,9 +151,6 @@
     z-index: 1;
 }
 
-
-
-
 .mainnav-subbar:hover .mainnavbtn {color: white}
 .mainnav-subbar:hover .dropdown-content {display: block;}
 .mainnav-subbar:hover {background-color: #21232A;} 
