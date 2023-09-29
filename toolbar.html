@@ -20,116 +20,111 @@
     </head>
     
     <body>
-        <div class="topbanner">
-            <nav class="nav__link">
+        <div id="toolbar-page">
+            <div class="topbanner">
                 <div class="menu-bar-div"></div>
-                <button><span class="material-symbols-outlined">settings</span></button>
-                <button><span class="material-symbols-outlined">login</span></button>
-            </nav>
+            </div>
             <div class="toplogobox">
                 <button onClick="location.href='index.html'" id="homebutton" class="logobutton" >
                     <img id="logo" src="minecraftlogo.png"/>
                 </button>
                 <h1 id="tagname">MC Verse</h1>
             </div>
-
-
-            <nav class="pagecount">
-                <div class="search-capability"></div>
-                <div class="search">
-                    <button id="chat-button"><span class="material-symbols-outlined">chat</span></button>
-                     <iframe id="discord" src="https://discord.com/widget?id=1154982800320110666&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <nav class="mainnav">
+                <div id="mainnav-items" class="mainnav-subbar">
+                    <button class="mainnavbtn" id="items-navbtn">Items</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Items</a>
+                        <a href="#">Vanilla</a>
+                        <a href="#">Galacticraft</a>
+                        <a href="#">Bibliocraft</a>
+                        <a href="#">Chisel</a>
+                        <a href="#">Applied Energistics 2</a>
+                    </div>
                 </div>
-                <button><span class="material-symbols-outlined">share</span></button>
-
-                
+                <div id="mainnav-bosses" class="mainnav-subbar">
+                    <button class="mainnavbtn">Bosses</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Bosses</a>
+                        <a href="#">Overworld</a>
+                        <a href="#">Nether</a>
+                        <a href="#">End Portal</a>
+                        <a href="#">Other Dimensions</a>
+                    </div>
+                </div>
+                <div id="mainnav-tools" class="mainnav-subbar">
+                    <button class="mainnavbtn">Tools</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Tools</a>
+                        <a href="#">Vanilla</a>
+                        <a href="#">Galacticraft</a>
+                        <a href="#">Bibliocraft</a>
+                        <a href="#">Chisel</a>
+                        <a href="#">Applied Energistics 2</a>
+                    </div>
+                </div>
+                <div id="mainnav-weapons" class="mainnav-subbar">
+                    <button class="mainnavbtn">Weapons</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Weapons</a>
+                        <a href="#">Vanilla</a>
+                        <a href="#">Galacticraft</a>
+                        <a href="#">Bibliocraft</a>
+                        <a href="#">Chisel</a>
+                        <a href="#">Applied Energistics 2</a>
+                    </div>
+                </div>
+                <div id="mainnav-buildings" class="mainnav-subbar">
+                    <button class="mainnavbtn">Buildings</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Buildings</a>
+                        <a href="#">Vanilla</a>
+                        <a href="#">Galacticraft</a>
+                        <a href="#">Bibliocraft</a>
+                        <a href="#">Chisel</a>
+                        <a href="#">Applied Energistics 2</a>
+                    </div>
+                </div>
+                <div id="mainnav-npc" class="mainnav-subbar">
+                    <button class="mainnavbtn">NPC</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">NPC</a>
+                        <a href="#">Vanilla</a>
+                        <a href="#">Biomes of Plenty</a>
+                        <a href="#">Nether</a>
+                        <a href="#">Villagers</a>
+                        <a href="#">Creatures</a>
+                    </div>
+                </div>
+                <div id="mainnav-learn" class="mainnav-subbar">
+                    <button class="mainnavbtn">Learn to Play</button>
+                    <span class="material-symbols-outlined">expand_circle_down</span>
+                    <div class="dropdown-content">
+                        <a class="dropdown-title">Learn to Play</a>
+                        <a href="#">Beginner</a>
+                        <a href="#">Intermediate</a>
+                        <a href="#">Advanced</a>
+                        <a href="#">Expert</a>
+                        <a href="#">I live here</a>
+                    </div>
+                </div>
             </nav>
+            <div class="topbanner">
+                <nav class="nav__link">
+                     <div class="search-capability"></div>
+                    <div class="search">
+                        <button id="chat-button"><span class="material-symbols-outlined">chat</span></button>
+                         <iframe id="discord" src="https://discord.com/widget?id=1154982800320110666&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                </nav>
+            </div>
         </div>
-        <nav class="mainnav">
-            <div id="mainnav-items" class="mainnav-subbar">
-                <button class="mainnavbtn" id="items-navbtn">Items</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Items</a>
-                    <a href="#">Vanilla</a>
-                    <a href="#">Galacticraft</a>
-                    <a href="#">Bibliocraft</a>
-                    <a href="#">Chisel</a>
-                    <a href="#">Applied Energistics 2</a>
-                </div>
-            </div>
-            <div id="mainnav-bosses" class="mainnav-subbar">
-                <button class="mainnavbtn">Bosses</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Bosses</a>
-                    <a href="#">Overworld</a>
-                    <a href="#">Nether</a>
-                    <a href="#">End Portal</a>
-                    <a href="#">Other Dimensions</a>
-                </div>
-            </div>
-            <div id="mainnav-tools" class="mainnav-subbar">
-                <button class="mainnavbtn">Tools</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Tools</a>
-                    <a href="#">Vanilla</a>
-                    <a href="#">Galacticraft</a>
-                    <a href="#">Bibliocraft</a>
-                    <a href="#">Chisel</a>
-                    <a href="#">Applied Energistics 2</a>
-                </div>
-            </div>
-            <div id="mainnav-weapons" class="mainnav-subbar">
-                <button class="mainnavbtn">Weapons</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Weapons</a>
-                    <a href="#">Vanilla</a>
-                    <a href="#">Galacticraft</a>
-                    <a href="#">Bibliocraft</a>
-                    <a href="#">Chisel</a>
-                    <a href="#">Applied Energistics 2</a>
-                </div>
-            </div>
-            <div id="mainnav-buildings" class="mainnav-subbar">
-                <button class="mainnavbtn">Buildings</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Buildings</a>
-                    <a href="#">Vanilla</a>
-                    <a href="#">Galacticraft</a>
-                    <a href="#">Bibliocraft</a>
-                    <a href="#">Chisel</a>
-                    <a href="#">Applied Energistics 2</a>
-                </div>
-            </div>
-            <div id="mainnav-npc" class="mainnav-subbar">
-                <button class="mainnavbtn">NPC</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">NPC</a>
-                    <a href="#">Vanilla</a>
-                    <a href="#">Biomes of Plenty</a>
-                    <a href="#">Nether</a>
-                    <a href="#">Villagers</a>
-                    <a href="#">Creatures</a>
-                </div>
-            </div>
-            <div id="mainnav-learn" class="mainnav-subbar">
-                <button class="mainnavbtn">Learn to Play</button>
-                <span class="material-symbols-outlined">expand_circle_down</span>
-                <div class="dropdown-content">
-                    <a class="dropdown-title">Learn to Play</a>
-                    <a href="#">Beginner</a>
-                    <a href="#">Intermediate</a>
-                    <a href="#">Advanced</a>
-                    <a href="#">Expert</a>
-                    <a href="#">I live here</a>
-                </div>
-            </div>
-        </nav>
     </body>
     
 </html>
