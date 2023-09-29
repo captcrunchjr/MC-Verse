@@ -5,6 +5,8 @@
     flex-direction: row;
     justify-content: space-between;
     background-image: url("landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
