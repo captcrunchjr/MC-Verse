@@ -87,6 +87,10 @@
         column-gap: 0;
     }
     
+    #toolbar-page {
+        border: solid 2px black;
+    }
+    
 }
 @media (max-width: 1099px) {
     .mainnav {
@@ -97,6 +101,10 @@
         justify-content: center;
         align-items: center;
         column-gap: 0;
+    }
+    
+    #toolbar-page {
+        border: solid 2px black;
     }
 }
 
