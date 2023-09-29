@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Grandstander">
         <title>MC Verse</title>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="checksize.js"></script>
         <script>
             $(function (){
                 $(".navbar").load("toolbar.html");
@@ -21,7 +22,7 @@
         <link rel="icon" type="image/x-icon" href="icon.ico">
     </head>
     
-    <body>
+    <body onload=checksize()>
         <div class="navbar"></div>
         <div class="page-content">
             <div class="page-content-left">

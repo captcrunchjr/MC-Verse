@@ -1,13 +1,10 @@
+
 body {
     margin: 0;
     font-family: grandstander;
     overflow-y: scroll;
     overflow-x: scroll;
     scroll-snap-align: start;
-    background-image: url("homepage67.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 150% 100%;
     
 }
 
@@ -21,18 +18,90 @@ body {
     color: #383838;
     font-weight: normal;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
+@media (max-width: 1099px) {
+    body {
+        background-image: url("landscape6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 250% 100%;
+    }
+    
+    .page-content {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+    }
+    
+    .page-content-left {
+        max-width: 85%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .page-content-right {
+        max-width: 85%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .links-tool {
+        max-width: 85%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .link {
+        min-width: 20vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    body {
+        background-image: url("homepage67.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 150% 100%;
+    }
+    
+    .page-content {
+        flex-direction: row;
+    }
+    
+    .page-content-left {
+        max-width: 60%;
+        margin-left: 2vw;
+        margin-right: 2
+    }
+    
+    .page-content-right {
+         margin-left: 5vw;
+        margin-right: 2vw;
+    }
+    
+    .links-tool {
+        min-width: 25vw;
+        max-width: 33vw;
+    }
+    
+    .link {
+        min-height: 40px;
+        max-width: 7vw;
+        min-width: 7vw;
+        min-height: 10vh;
+    }
+}
+
 .page-content-left {
-    margin-left: 2vw;
     margin-top: 0vh;
     margin-bottom: 3vh;
     min-height: 5vh;
-    max-width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,8 +197,6 @@ body {
     font-family: grandstander;
     margin: 0;
     padding: 20px;
-    margin-left: 5vw;
-    margin-right: 2vw;
     color: #383838;
     font-weight: normal;
     display: flex;
@@ -142,12 +209,10 @@ body {
     background-color: #21232A;
     border-radius: 1em;
     font-family: grandstander;
-    min-width: 25vw;
-    max-width: 33vw;
     color: white;
     font-weight: normal;
     margin-bottom: 25px;
-    margin-left: 25px;
+
 }
 
 .quick-links {
@@ -173,10 +238,7 @@ body {
     border-radius: 1em;
     border: solid 3px black;
     background-color: #4f8335;
-    min-height: 40px;
-    max-width: 7vw;
-    min-width: 7vw;
-    min-height: 10vh;
+
 }
 
 .linkimage {
